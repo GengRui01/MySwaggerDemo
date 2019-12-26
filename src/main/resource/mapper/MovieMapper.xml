@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="MySwaggerDemo.mapper.MovieMapper">
+    <sql id="List_Column">
+        movie_no, name, score, area, date, status
+    </sql>
+    <sql id="whereSql">
+        <where>
+            is_delete = 0
+            <if test="null!=areaList and areaList.size() > 0">
+                and area in
+                <foreach collection="areaList" index="index" item="item" open="(" close=")" separator=",">
+                    #{item}
+                </foreach>
+            </if>
+            <if test="beginDate!=null and beginDate!='' and endDate!=null and endDate!=''">
+                and date between #{beginDate} and #{endDate}
+            </if>
+            <if test="lowScore!=null and lowScore!='' and highScore!=null and highScore!=''">
+                and score between #{lowScore} and #{highScore}
+            </if>
+        </where>
+    </sql>
+    <select id="getList" resultType="MySwaggerDemo.domain.entity.Movie">
+        select
+        <include refid="List_Column"/>
+        from movie
+        <include refid="whereSql"/>
+        order by date desc
+    </select>
+    <select id="getDetail" parameterType="java.lang.Long" resultType="MySwaggerDemo.domain.entity.Movie">
+        select
+        <include refid="List_Column"/>, introduction, remark
+        from movie
+        where is_delete = 0 and movie_no = #{movieNo,jdbcType=VARCHAR}
+    </select>
+
+    <select id="getLastMovieNo" resultType="java.lang.String">
+        SELECT max( movie_no ) FROM movie
+    </select>
+
+    <select id="checkName" resultType="java.lang.Integer">
+        select count(0) from movie
+        where is_delete = 0
+        and movie_no != #{movieNo,jdbcType=VARCHAR}
+        and name = #{name,jdbcType=VARCHAR}
+    </select>
+
+    <insert id="insert" parameterType="MySwaggerDemo.domain.entity.Movie">
+        insert into movie (movie_no, name, score,
+            , area, date,
+            introduction, remark, create_user
+        ) values (#{movieNo,jdbcType=VARCHAR}, #{name,jdbcType=VARCHAR}, #{score,jdbcType=DECIMAL},
+            #{area,jdbcType=INTEGER}, #{date,jdbcType=DATE},
+            #{introduction,jdbcType=VARCHAR}, #{remark,jdbcType=VARCHAR}
+        )
+    </insert>
+
+    <update id="update" parameterType="MySwaggerDemo.domain.entity.Movie">
+        update movie
+        <set>
+            <if test="name != null">
+                name = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="score != null">
+                score = #{score,jdbcType=DECIMAL},
+            </if>
+            <if test="area != null">
+                area = #{area,jdbcType=INTEGER},
+            </if>
+            <if test="date != null">
+                date = #{date,jdbcType=DATE},
+            </if>
+            <if test="introduction != null">
+                introduction = #{introduction,jdbcType=VARCHAR},
+            </if>
+            <if test="remark != null">
+                remark = #{remark,jdbcType=VARCHAR},
+            </if>
+            <if test="status != null">
+                status = #{status,jdbcType=INTEGER},
+            </if>
+            <if test="isDelete != null">
+                is_delete = #{isDelete,jdbcType=INTEGER},
+            </if>
+        </set>
+        where movie_no = #{movieNo,jdbcType=VARCHAR}
+    </update>
+</mapper>

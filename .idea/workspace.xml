@@ -2,10 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7df3551b-baba-40b2-8763-2a7bf2dffc41" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entity/Movie.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/AreaEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/ResultEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/StatusEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/query/MovieQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/vo/MovieVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/vo/Result.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/mapper/MovieMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/service/MovieService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/service/impl/MovieServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/util/EmptyUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/web/MovieController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/mapper/MovieMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resource/msd.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/Application.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/Application.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/MySwaggerDemo/config/SwaggerConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resource/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resource/application.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -21,122 +37,252 @@
         <counts>
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.12" value="3" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.14" value="3" />
+          <entry key="project.open.time.15" value="3" />
+          <entry key="project.open.time.16" value="4" />
+          <entry key="project.open.time.17" value="6" />
+          <entry key="project.open.time.18" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.20" value="1" />
+          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.23" value="3" />
+          <entry key="project.open.time.27" value="1" />
+          <entry key="project.open.time.28" value="2" />
+          <entry key="project.open.time.31" value="2" />
+          <entry key="project.open.time.32" value="1" />
+          <entry key="project.open.time.36" value="1" />
           <entry key="project.open.time.8" value="2" />
           <entry key="project.open.time.9" value="1" />
-          <entry key="project.opened" value="10" />
+          <entry key="project.opened" value="39" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="34" />
-          <entry key="md" value="395" />
-          <entry key="txt" value="8" />
-          <entry key="xml" value="35" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="1093" />
+          <entry key="md" value="396" />
+          <entry key="sql" value="293" />
+          <entry key="txt" value="10" />
+          <entry key="xml" value="228" />
+          <entry key="yml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="34" />
-          <entry key="Markdown" value="395" />
-          <entry key="PLAIN_TEXT" value="8" />
-          <entry key="XML" value="35" />
+          <entry key="JAVA" value="1093" />
+          <entry key="Markdown" value="396" />
+          <entry key="PLAIN_TEXT" value="11" />
+          <entry key="SQL" value="307" />
+          <entry key="XML" value="214" />
+          <entry key="YAML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="class" value="1" />
-          <entry key="java" value="2" />
+          <entry key="class" value="5" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="22" />
           <entry key="md" value="1" />
-          <entry key="pom" value="4" />
-          <entry key="xml" value="5" />
-          <entry key="yml" value="3" />
+          <entry key="pom" value="5" />
+          <entry key="sql" value="2" />
+          <entry key="xml" value="10" />
+          <entry key="yml" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="2" />
+          <entry key="CLASS" value="5" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="22" />
           <entry key="Markdown" value="1" />
-          <entry key="XML" value="9" />
-          <entry key="YAML" value="3" />
+          <entry key="SQL" value="2" />
+          <entry key="XML" value="15" />
+          <entry key="YAML" value="7" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/Application.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-              <folding>
-                <element signature="e#448#449#0" expanded="true" />
-                <element signature="e#510#511#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="290">
-                <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
-              </first_editor>
-              <second_editor />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="280">
-              <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <splitter split-orientation="horizontal" split-proportion="0.5341226">
+      <split-first>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/config/SwaggerConfig.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="342">
+                  <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entity/Movie.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1656">
+                  <caret line="122" column="78" selection-start-line="122" selection-start-column="78" selection-end-line="122" selection-end-column="78" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/vo/MovieVo.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1188">
+                  <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/StatusEnum.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="198">
+                  <caret line="12" column="22" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="22" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/AreaEnum.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="623">
+                  <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#935#936#0" expanded="true" />
+                    <element signature="e#975#976#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/query/MovieQuery.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="288">
+                  <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/service/MovieService.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="756">
+                  <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/service/impl/MovieServiceImpl.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="216">
+                  <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/web/MovieController.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="630">
+                  <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/vo/Result.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/ResultEnum.java">
+              <provider selected="true" editor-type-id="text-editor" />
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/pom.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="1188">
+                  <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/util/EmptyUtil.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="702">
+                  <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/mapper/MovieMapper.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="72">
+                  <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="144">
+                  <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-first>
+      <split-second>
+        <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+          <file pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/MovieMapper.xml">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="90">
+                  <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+        </leaf>
+      </split-second>
+    </splitter>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
+        <option value="Enum" />
         <option value="Class" />
       </list>
     </option>
@@ -144,9 +290,22 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>TestDrivenDevelopment</find>
+      <find>com.fengniaojx.background.domain.entity.equipment.Movie</find>
+      <find>AbnormalCancelStatus</find>
+      <find>Movie</find>
+      <find>Area</find>
+      <find>movieMapper</find>
+      <find>@Override</find>
+      <find>myB</find>
+      <find>7853</find>
+      <find>static</find>
     </findStrings>
     <replaceStrings>
       <replace>MySwaggerDemo</replace>
+      <replace>MovieType</replace>
+      <replace>Area</replace>
+      <replace>Status</replace>
+      <replace>movieService</replace>
     </replaceStrings>
   </component>
   <component name="Git.Settings">
@@ -156,11 +315,32 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/MySwaggerDemo/Application.java" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entityEnum/MovieTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entityEnum/AreaTypeEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/query/MovieQuery.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/msd.sql" />
+        <option value="$PROJECT_DIR$/src/main/java/EmptyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/mapper/MovieMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entity/Movie.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entityEnum/AreaEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entityEnum/statusEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entityEnum/StatusEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/vo/MovieVo.java" />
+        <option value="$PROJECT_DIR$/src/main/java/util/EmptyUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/MovieService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/service/impl/MovieServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/entityEnum/ResultEnum.java" />
+        <option value="$PROJECT_DIR$/src/main/java/domain/vo/Result.java" />
+        <option value="$PROJECT_DIR$/src/main/java/web/MovieController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MySwaggerDemo/Application.java" />
+        <option value="$PROJECT_DIR$/src/main/java/MySwaggerDemo/mapper/MovieMapper.java" />
+        <option value="$PROJECT_DIR$/src/main/resource/mapper/MovieMapper.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/resource/application.yml" />
+        <option value="$PROJECT_DIR$/src/main/java/MySwaggerDemo/web/MovieController.java" />
       </list>
     </option>
   </component>
@@ -176,6 +356,23 @@
     <option name="width" value="1936" />
     <option name="height" value="1096" />
   </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+          <State>
+            <id>Ali-Check</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AlibabaAbstractMethodOrInterfaceMethodMustUseJavadoc</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
   </component>
@@ -184,8 +381,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -196,11 +391,6 @@
             <path>
               <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -222,7 +412,53 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
               <item name="domain" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="domain" type="462c0819:PsiDirectoryNode" />
+              <item name="entityEnum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="MySwaggerDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="MySwaggerDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -234,13 +470,15 @@
           <select />
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1574158638913" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1575968301510" />
     <property name="last_opened_file_path" value="E:/IdeaProject" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -248,12 +486,20 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\MyProject\MySwaggerDemo\src\main\resource\mapper" />
       <recent name="E:\MyProject\MySwaggerDemo" />
       <recent name="E:\MyProject\MySwaggerDemo\src\main\MySwaggerDemo" />
       <recent name="E:\MyProject\MySwaggerDemo\src\main\resource" />
       <recent name="E:\MyProject\MySwaggerDemo\src\test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="domain.entityEnum" />
+      <recent name="domain.vo" />
+      <recent name="mapper" />
+      <recent name="domain.entity" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\MyProject\MySwaggerDemo\src\main\resource" />
       <recent name="E:\MyProject\MySwaggerDemo" />
       <recent name="E:\MyProject\MySwaggerDemo\src" />
       <recent name="E:\MyProject\MySwaggerDemo\src\main\java" />
@@ -312,6 +558,35 @@
       <workItem from="1573779838433" duration="599000" />
       <workItem from="1574037421881" duration="1248000" />
       <workItem from="1574125634767" duration="3605000" />
+      <workItem from="1574212051687" duration="599000" />
+      <workItem from="1574298741616" duration="599000" />
+      <workItem from="1574385103098" duration="2795000" />
+      <workItem from="1574642181551" duration="20655000" />
+      <workItem from="1574731054324" duration="616000" />
+      <workItem from="1574816750505" duration="1205000" />
+      <workItem from="1574902703104" duration="5441000" />
+      <workItem from="1574989785431" duration="598000" />
+      <workItem from="1575249411495" duration="599000" />
+      <workItem from="1575335343481" duration="1914000" />
+      <workItem from="1575421615033" duration="1572000" />
+      <workItem from="1575594217850" duration="598000" />
+      <workItem from="1575853557163" duration="599000" />
+      <workItem from="1575940273056" duration="5286000" />
+      <workItem from="1576026444122" duration="1629000" />
+      <workItem from="1576032901064" duration="316000" />
+      <workItem from="1576033321256" duration="599000" />
+      <workItem from="1576042412527" duration="593000" />
+      <workItem from="1576112927973" duration="597000" />
+      <workItem from="1576199248939" duration="599000" />
+      <workItem from="1576458208127" duration="598000" />
+      <workItem from="1576544850091" duration="599000" />
+      <workItem from="1576631309959" duration="599000" />
+      <workItem from="1576718453229" duration="598000" />
+      <workItem from="1576804073005" duration="1246000" />
+      <workItem from="1577063248249" duration="597000" />
+      <workItem from="1577149274640" duration="598000" />
+      <workItem from="1577236354487" duration="599000" />
+      <workItem from="1577323793519" duration="502000" />
     </task>
     <task id="LOCAL-00001" summary="提交readme">
       <created>1574077996007</created>
@@ -320,11 +595,18 @@
       <option name="project" value="LOCAL" />
       <updated>1574077996007</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Swagger配置">
+      <created>1574158667034</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1574158667034</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26901000" />
+    <option name="totallyTimeSpent" value="82295000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -344,21 +626,56 @@
       <window_info id="UI Designer" order="2" />
       <window_info id="Capture Tool" order="3" />
       <window_info id="Web" order="4" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.6709062" visible="true" weight="0.2249467" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.6709062" visible="true" weight="0.23880596" />
+      <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="7" sideWeight="0.3290938" side_tool="true" weight="0.2249467" />
+      <window_info anchor="bottom" id="Spring" order="0" sideWeight="0.49946696" weight="0.32942432" />
+      <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49946696" weight="0.32952183" />
+      <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.38326225" side_tool="true" weight="0.32952183" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.6167377" weight="0.3283582" />
+      <window_info anchor="bottom" id="Java Enterprise" order="4" sideWeight="0.49946696" weight="0.32952183" />
+      <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4978678" weight="0.30916846" />
+      <window_info anchor="bottom" x="1942" y="331" width="1876" height="417" id="Run Dashboard" order="7" show_stripe_button="false" sideWeight="0.6924307" weight="0.43347195" />
+      <window_info anchor="bottom" id="Message" order="8" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32942432" />
+      <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49840087" weight="0.32952183" />
+      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4978678" visible="true" weight="0.39872068" />
+      <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49946696" weight="0.3283582" />
+      <window_info anchor="right" id="Palette" order="0" />
+      <window_info anchor="right" id="Capture Analysis" order="1" />
+      <window_info anchor="right" id="Maven Projects" order="2" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="right" id="Palette&#9;" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Bean Validation" order="6" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="Designer" order="0" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="UI Designer" order="2" />
+      <window_info id="Capture Tool" order="3" />
+      <window_info id="Web" order="4" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="5" sideWeight="0.6709062" visible="true" weight="0.23454158" />
       <window_info id="Structure" order="6" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="7" sideWeight="0.3290938" side_tool="true" weight="0.2249467" />
       <window_info anchor="bottom" id="Spring" order="0" sideWeight="0.49946696" weight="0.32952183" />
       <window_info anchor="bottom" id="Terminal" order="1" sideWeight="0.49946696" weight="0.32952183" />
       <window_info anchor="bottom" id="Event Log" order="2" sideWeight="0.38326225" side_tool="true" weight="0.32952183" />
-      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.6167377" weight="0.3290735" />
+      <window_info anchor="bottom" id="Messages" order="3" sideWeight="0.6167377" weight="0.3283582" />
       <window_info anchor="bottom" id="Java Enterprise" order="4" sideWeight="0.49946696" weight="0.32952183" />
       <window_info anchor="bottom" id="Database Changes" order="5" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4978678" visible="true" weight="0.32942432" />
+      <window_info anchor="bottom" id="Version Control" order="6" sideWeight="0.4978678" visible="true" weight="0.30916846" />
       <window_info anchor="bottom" x="1942" y="331" width="1876" height="417" id="Run Dashboard" order="7" show_stripe_button="false" sideWeight="0.6924307" weight="0.43347195" />
       <window_info anchor="bottom" id="Message" order="8" />
-      <window_info anchor="bottom" id="Find" order="9" />
+      <window_info anchor="bottom" id="Find" order="9" weight="0.32942432" />
       <window_info anchor="bottom" id="Run" order="10" sideWeight="0.49840087" weight="0.32952183" />
-      <window_info anchor="bottom" id="Debug" order="11" sideWeight="0.4978678" weight="0.3991684" />
+      <window_info active="true" anchor="bottom" id="Debug" order="11" sideWeight="0.4978678" visible="true" weight="0.39872068" />
       <window_info anchor="bottom" id="Cvs" order="12" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="13" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="14" sideWeight="0.49946696" weight="0.3290735" />
@@ -372,7 +689,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="7" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="8" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="9" weight="0.25" />
-    </layout>
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -408,13 +725,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="提交readme" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交readme" />
+    <MESSAGE value="Swagger配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="Swagger配置" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/application.yml" />
-    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/.idea/vcs.xml">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -427,20 +742,6 @@
     <entry file="file://$USER_HOME$/.m2/repository/mysql/mysql-connector-java/8.0.12/mysql-connector-java-8.0.12.pom">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="49" selection-start-line="6" selection-start-column="49" selection-end-line="6" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="53" column="39" lean-forward="true" selection-start-line="53" selection-start-column="39" selection-end-line="53" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$USER_HOME$/.m2/repository/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/io/swagger/annotations/ApiOperation.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -448,41 +749,220 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/Application.java">
+    <entry file="file://$PROJECT_DIR$/MySwaggerDemo.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="17" column="55" selection-start-line="17" selection-start-column="55" selection-end-line="17" selection-end-column="55" />
-          <folding>
-            <element signature="e#448#449#0" expanded="true" />
-            <element signature="e#510#511#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="15" column="74" selection-start-line="15" selection-start-column="74" selection-end-line="15" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="27" column="25" lean-forward="true" selection-start-line="27" selection-start-column="25" selection-end-line="27" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="18">
+          <caret line="1" column="39" selection-start-line="1" selection-start-column="39" selection-end-line="1" selection-end-column="39" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="290">
-            <caret line="34" column="16" lean-forward="true" selection-start-line="34" selection-start-column="16" selection-end-line="34" selection-end-column="16" />
+          <first_editor relative-caret-position="470">
+            <caret line="44" selection-start-line="44" selection-end-line="44" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="543">
+          <caret line="54" column="39" selection-start-line="54" selection-start-column="39" selection-end-line="54" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/domain/entityEnum/MovieTypeEnum.java" />
+    <entry file="jar://D:/Java/jdk1.8.0_171/src.zip!/java/util/Date.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="453" column="23" selection-start-line="453" selection-start-column="23" selection-end-line="453" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/Java/jdk1.8.0_171/jre/lib/rt.jar!/com/sun/istack/internal/NotNull.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot/2.1.6.RELEASE/spring-boot-2.1.6.RELEASE.jar!/org/springframework/boot/web/servlet/support/SpringBootServletInitializer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="159">
+          <caret line="24" column="72" selection-start-line="24" selection-start-column="72" selection-end-line="24" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.m2/repository/org/springframework/boot/spring-boot-starter-parent/2.1.6.RELEASE/spring-boot-starter-parent-2.1.6.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1566" />
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/com/baomidou/mybatis-plus-core/3.1.2/mybatis-plus-core-3.1.2-sources.jar!/com/baomidou/mybatisplus/core/MybatisMapperAnnotationBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="368" selection-start-line="368" selection-end-line="368" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/.m2/repository/org/mybatis/mybatis-spring/2.0.1/mybatis-spring-2.0.1.jar!/org/mybatis/spring/annotation/MapperScan.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mybatis-config.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="18" column="53" selection-start-line="18" selection-start-column="53" selection-end-line="18" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/msd.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="2" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" column="45" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="28" column="35" selection-start-line="28" selection-start-column="35" selection-end-line="28" selection-end-column="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entity/Movie.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1656">
+          <caret line="122" column="78" selection-start-line="122" selection-start-column="78" selection-end-line="122" selection-end-column="78" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/vo/MovieVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="88" column="33" selection-start-line="88" selection-start-column="33" selection-end-line="88" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/StatusEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="198">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/query/MovieQuery.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="16" column="29" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/service/MovieService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="756">
+          <caret line="45" column="11" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/service/impl/MovieServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="29" column="13" selection-start-line="29" selection-start-column="13" selection-end-line="29" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/web/MovieController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="630">
+          <caret line="48" column="14" selection-start-line="48" selection-start-column="14" selection-end-line="48" selection-end-column="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/vo/Result.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/ResultEnum.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1188">
+          <caret line="66" column="62" selection-start-line="66" selection-start-column="62" selection-end-line="66" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/util/EmptyUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="702">
+          <caret line="39" column="5" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/mapper/MovieMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="72">
+          <caret line="8" column="5" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="8" column="49" selection-start-line="8" selection-start-column="49" selection-end-line="8" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/MySwaggerDemo/domain/entityEnum/AreaEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="623">
+          <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#935#936#0" expanded="true" />
+            <element signature="e#975#976#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resource/mapper/MovieMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="5" column="10" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
         </state>
       </provider>
     </entry>
